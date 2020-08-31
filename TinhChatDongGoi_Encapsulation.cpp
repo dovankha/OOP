@@ -14,6 +14,11 @@ public:
     void xuatThongtin();
 
     // co che dong goi getter & setter
+    /* 
+    Getter: lay du lieu tu class.
+    Setter: sua doi du lieu, pha vo nguyen tac class.
+    2 thang nay luon di chung.
+    */
     string getterTen()
     {
         return ten;
@@ -23,7 +28,7 @@ public:
     {
         ten = TEN;
     }
-    
+
     // ham tao va ham huy
     sinhVien();
     ~sinhVien();
@@ -34,6 +39,8 @@ int main()
     sinhVien kha;
     cout << "========= NHAP THONG TIN ==========" << endl;
     kha.nhapThongTin();
+    cout << kha.getterTen();
+    kha.SetterTen("Kha dep trai qua ne");
     cout << "\n========= XUAT THONG TIN ==========" << endl;
     kha.xuatThongtin();
     system("pause");
