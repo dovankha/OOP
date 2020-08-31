@@ -14,18 +14,17 @@ public:
     void xuatThongtin();
 
     // co che dong goi getter & setter
-
-    string getTen()
+    string getterTen()
     {
         return ten;
     }
 
-    void SetTen(string TEN)
+    void SetterTen(string TEN)
     {
         ten = TEN;
     }
+    
     // ham tao va ham huy
-
     sinhVien();
     ~sinhVien();
 };
