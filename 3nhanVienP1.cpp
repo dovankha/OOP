@@ -1,3 +1,12 @@
+/*
+Mo ta: O mot cong ty ABC co 3 nhan vien: truong phong, ke toan, bao ve.
+1. Hay phan tich va mo ta cac thong tin can thiet de quan ly 3 nhan vien.
+2. Tinh tien luong hang thang cua 3 nhan vien tren.
+3. Viet mot ung dung quan ly 3 nhan vien cua cty ABC.
+4. Tinh tong tien luong hang thang cua 3 nhan vien.
+5. Thong ke cac nhan vien giam dan theo luong.
+*/
+
 #include <iostream>
 #include <string>
 using namespace std;
